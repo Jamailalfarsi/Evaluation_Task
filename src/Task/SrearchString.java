@@ -13,8 +13,8 @@ public class SrearchString {
 	
 	public void searchForName()throws IOException {
 		   System.out.println("Please enter the name you would like to search for: ");
-		    Scanner kb = new Scanner(System.in);
-		    String name = kb.nextLine();
+		    Scanner Sc = new Scanner(System.in);
+		    String name = Sc.nextLine();
 
 		    List<String> lines = Files.readAllLines(Paths.get("TaskFile.txt"));
 		    for (String line : lines) {
@@ -24,5 +24,6 @@ public class SrearchString {
 		        else {
 		        	System.out.println("The file does not contain the word");
 		    }
+		        
 	   } }
 }

@@ -35,7 +35,17 @@ public class GetRequest {
 	            e.printStackTrace();
 	        }
 	        System.out.println("The file created");
-	           
+	        try {
+	           	 
+	           	 response=HttpClient.newHttpClient().send(request,  HttpResponse.BodyHandlers.ofString());
+	            }catch(IOException e){
+	           	 e.printStackTrace();
+	           	 
+	            }catch(InterruptedException e){
+	           	 e.printStackTrace();
+	           	 
+	            }
+	             
 	    
 	        	
 	    }
