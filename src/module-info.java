@@ -6,4 +6,5 @@
  *
  */
 module ConcumeAPI {
+	requires java.net.http;
 }
