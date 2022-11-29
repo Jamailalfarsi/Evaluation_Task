@@ -1,0 +1,25 @@
+Documintation for Consume API :using this link https://api.genderize.io/?name=luc
+
+result:{"count":86426,"gender":"male","name":"luc","probability":0.99}
+
+MainFunction: Public class includes menueFunction() function.
+menueFunction():Function to to display menue to select one option from menue.
+1.Get Request and write file
+2.Search
+
+GetRequest:Public class contains GetRequestFunction() function.
+GetRequestFunction():Function to fetch data from API link usinfg this link https://api.genderize.io/?name=luc
+and write data into txt file that named TaskFile. 
+The ouput from file shows like this as API from the link:
+result:{"count":86426,"gender":"male","name":"luc","probability":0.99}
+
+creating GetRequset with HeadRequest and HttpClientStatus.
+
+
+SrearchString :Public class includes searchForName() function.
+searchForName() :Function to search word input from user.
+If the word which writing by user then the word desplied in the output of eclips code when run code.
+If the word does not in the file then the output of eclips code when run code will desplied "The file does not contain the word".
+
+FindingWordFromFile:Public class includes FindingWordFromFileMethod() function.
+FindingWordFromFileMethod():Function to find the path of the folder and search the word that input from user from the file.

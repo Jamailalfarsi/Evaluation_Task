@@ -8,7 +8,7 @@ import java.nio.file.Paths;
 import java.util.List;
 import java.util.Scanner;
 
-public class SrearchString {
+public class SrearchWord {
 
 	
 	public void searchForName()throws IOException {

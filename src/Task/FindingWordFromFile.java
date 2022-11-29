@@ -32,7 +32,7 @@ public class FindingWordFromFile {
 	  	      System.out.println("Contents of the line");
 	  	      //Reading the contents of the file
 	  	     // Scanner sc2 = new Scanner(new FileInputStream("C:\\Users\\user021\\eclipse-workspace\\Jamail_course_Repo\\src\\JSONFile.txt"));
-	  	      Scanner sc2 = new Scanner(new FileInputStream("TaskFile.txt"));
+	  	      Scanner sc2 = new Scanner(new FileInputStream("C:\\Users\\user021\\eclipse-workspace\\Jamail_course_Repo\\src\\JSONFile.txt"));
 	  	      while(sc2.hasNextLine()) {
 	  	         String line = sc2.nextLine();
 	  	         System.out.println(line);
@@ -52,6 +52,6 @@ public class FindingWordFromFile {
 	      else System.out .println("There is no Folder @ given path :" + folderPath);
 		 
 	     
-		   
+	         
 	   }
 	}

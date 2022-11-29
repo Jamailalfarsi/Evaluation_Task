@@ -15,7 +15,7 @@ static void menueFunction() {
 			System.out.println("Select one of the options:");
 			System.out.println("1.Get Request and write file ");
 			System.out.println("2.Search ");
-			System.out.println("3.Find word ");
+			System.out.println("3.Find a string word ");
 			
 			System.out.println("____________________________________________");
 		}
@@ -37,7 +37,7 @@ static void menueFunction() {
 						break;
 					case 2:
 						
-						 SrearchString searchObj=new SrearchString();
+						 SrearchWord searchObj=new SrearchWord();
 						 searchObj.searchForName();
 					
 						break;
