@@ -11,8 +11,9 @@ import java.net.http.HttpResponse;
 
 
 public class GetRequest {
+	public void GetRequestFunction()throws IOException, InterruptedException {
 
-	 public static void main(String[] args) throws IOException, InterruptedException {
+	// public static void main(String[] args) throws IOException, InterruptedException {
 
 	        HttpClient client = HttpClient.newHttpClient();
 	        HttpRequest request = HttpRequest.newBuilder()
