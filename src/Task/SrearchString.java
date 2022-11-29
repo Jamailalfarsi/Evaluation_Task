@@ -21,5 +21,8 @@ public class SrearchString {
 		        if (line.contains(name)) {
 		            System.out.println(line);
 		        }
+		        else {
+		        	System.out.println("The file does not contain the word");
 		    }
 	   } }
+}

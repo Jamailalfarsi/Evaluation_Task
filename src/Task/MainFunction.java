@@ -13,10 +13,8 @@ static void menueFunction() {
 			System.out.println("____________________________________________");
 			
 			System.out.println("Select one of the options:");
-			System.out.println("1.Get Request to response and write file ");
+			System.out.println("1.Get Request and write file ");
 			System.out.println("2.Search ");
-			
-			
 			
 			System.out.println("____________________________________________");
 		}
@@ -42,9 +40,6 @@ static void menueFunction() {
 						 searchObj.searchForName();
 					
 						break;
-					
-					
-					
 					
 					
 					
