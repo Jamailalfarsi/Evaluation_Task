@@ -16,7 +16,7 @@ public class FindingWordFromFile {
 	      File folder = new File(folderPath);
 	      
 	      if (folder.isDirectory()) {
-	         File[] listOfFiles = folder.listFiles();
+	       File[] listOfFiles = folder.listFiles();
 	         if (listOfFiles.length < 1)System.out.println( "There is no File inside Folder");
 	         
 	         else System.out.println("List of Files & Folder");
@@ -37,8 +37,8 @@ public class FindingWordFromFile {
 	  	         String line = sc2.nextLine();
 	  	         System.out.println(line);
 	  	         if(line.indexOf(word)!=-1) {
-	  	            flag = true;
-	  	            count = count+1;
+	  	           flag = true;
+	  	           count = count+1;
 	  	         }
 	  	      }
 	  	      if(flag) {
