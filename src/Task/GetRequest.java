@@ -1,5 +1,6 @@
 package Task;
 
+import java.io.FileWriter;
 import java.io.IOException;
 import java.net.URI;
 import java.net.http.HttpClient;
@@ -20,8 +21,20 @@ public class GetRequest {
 
 	        HttpResponse<String> response = client.send(request,
 	                HttpResponse.BodyHandlers.ofString());
-
+	        String tryDataObject = response.body();
 	      System.out.println( response.body());
+	      
+	      try {
+	        	FileWriter file = new FileWriter("TaskFile.txt"); {
+	        		file.write(tryDataObject.toString());
+	        		file.close();
+	        }
+	        }
+	        	catch (IOException e) {
+	            e.printStackTrace();
+	        }
+	        System.out.println("The file created");
+	           
 	    
 	        	
 	    }
