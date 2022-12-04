@@ -16,6 +16,7 @@ static void menueFunction() {
 			System.out.println("1.Get Request and write file ");
 			System.out.println("2.Search ");
 			System.out.println("3.Find a string word ");
+			System.out.println("4.New Find a string word ");
 			
 			System.out.println("____________________________________________");
 		}
@@ -48,6 +49,15 @@ static void menueFunction() {
 						 findObj.FindingWordFromFileMethod();
 					
 						break;
+						
+                       case 4:
+						
+                    	   StringWord findObj1=new StringWord();
+                    	   findObj1.searchFunction();
+					
+						break;
+					
+
 					
 				}
 					}while(true);
