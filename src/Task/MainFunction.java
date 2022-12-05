@@ -15,8 +15,8 @@ static void menueFunction() {
 			System.out.println("Select one of the options:");
 			System.out.println("1.Get Request and write file ");
 			System.out.println("2.Search ");
-			System.out.println("3.Find a string word ");
-			System.out.println("4.New Find a string word ");
+			System.out.println("3.Find word ");
+			System.out.println("4.Final Solution for Search a string word ");
 			
 			System.out.println("____________________________________________");
 		}
