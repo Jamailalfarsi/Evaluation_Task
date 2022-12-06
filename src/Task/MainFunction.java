@@ -13,10 +13,12 @@ static void menueFunction() {
 			System.out.println("____________________________________________");
 			
 			System.out.println("Select one of the options:");
-			System.out.println("1.Get Request and write file ");
-			System.out.println("2.Search ");
+			System.out.println("1.Get Request and write txt file ");
+			System.out.println("2.Search txt file ");
 			System.out.println("3.Find word ");
-			System.out.println("4.Final Solution for Search a string word ");
+			System.out.println("4.Final Solution for Search a string word in txt file ");
+			System.out.println("5.Get Request for PDF file");
+			System.out.println("6.Srearch word in PDF File");
 			
 			System.out.println("____________________________________________");
 		}
@@ -56,6 +58,23 @@ static void menueFunction() {
                     	   findObj1.searchFunction();
 					
 						break;
+						
+                       case 5:
+   						
+                    	   SimplePdfSearch findObj2=new SimplePdfSearch();
+                    	   findObj2.GetRequestFunction2();
+					
+						break;
+						
+                       case 6:
+      						
+                    	   SearchWordPdf findObj3=new SearchWordPdf();
+                    	   findObj3.searchFunction2();
+					
+						break;
+						
+						
+					
 					
 
 					
