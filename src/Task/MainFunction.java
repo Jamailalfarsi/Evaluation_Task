@@ -15,7 +15,7 @@ static void menueFunction() {
 			System.out.println("Select one of the options:");
 			System.out.println("1.Get Request and write txt file ");
 			System.out.println("2.Search txt file ");
-			System.out.println("3.Find word ");
+			System.out.println("3.Find word from txt file ");
 			System.out.println("4.Final Solution for Search a string word in txt file ");
 			System.out.println("5.Get Request for PDF file");
 			System.out.println("6.Srearch word in PDF File");
@@ -26,6 +26,7 @@ static void menueFunction() {
 	
 		// TODO Auto-generated method stub
 		 public static void main(String[] args) throws IOException, InterruptedException {
+			
 			 Scanner sc = new Scanner(System.in);
 			 do {
 				 menueFunction();
@@ -73,7 +74,8 @@ static void menueFunction() {
 					
 						break;
 						
-						
+                      
+                      
 					
 					
 

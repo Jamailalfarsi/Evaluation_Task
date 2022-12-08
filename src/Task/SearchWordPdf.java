@@ -3,6 +3,9 @@ package Task;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
@@ -57,9 +60,19 @@ public class SearchWordPdf {
 			{
 				System.out.println(" The given word ( " + inputObj + " ) is unique.");
 				uniqueWords.add(inputObj);
+				Path temp = Files.move 
+				       (Paths.get("C:\\Users\\user021\\Desktop\\TaskFile.pdf"),  
+				       Paths.get("C:\\Users\\user021\\Desktop\\NewFile\\TaskFile2.pdf")); 
+				  
+				       if(temp != null) 
+				       { 
+				           System.out.println("File renamed and moved successfully"); 
+				       } 
 			} else {
 				System.out.println("The given word ( " + inputObj + " ) is not present in the file");
 			}
+			
+			
 			fr.close();
 		}
 	}
