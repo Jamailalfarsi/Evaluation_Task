@@ -18,7 +18,7 @@ static void menueFunction() {
 			System.out.println("3.Find word from txt file ");
 			System.out.println("4.Final Solution for Search a string word in txt file ");
 			System.out.println("5.Get Request for PDF file");
-			System.out.println("6.Srearch word in PDF File");
+			System.out.println("6.Srearch word from PDF File and Directory");
 			
 			System.out.println("____________________________________________");
 		}
